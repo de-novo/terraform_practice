@@ -13,8 +13,23 @@ variable "AWS_REGION" {
   default = "ap-northeast-2"
 }
 
-
 variable "AWS_INSTANCE_TYPE" {
   type    = string
   default = "t2.micro"
 }
+
+variable "INSTANCE_USERNAME" {
+  type    = string
+  default = "ubuntu"
+}
+
+variable "PATH_TO_PUBLIC_KEY" {
+  type    = string
+  default = "~/.ssh/mykey"
+}
+
+variable "PATH_TO_PRIVATE_KEY" {
+  type    = string
+  default = "~/.ssh/mykey.pub"
+}
+
