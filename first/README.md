@@ -26,3 +26,11 @@ terraform plan -out changes.terraform
 terraform plan changes.terrafrom
 rm changes.terraform
 ```
+
+**_production에서는 아래코드는 절대 사용X_**
+
+모든 리소스를 제거함.
+
+```
+terraform destroy
+```
