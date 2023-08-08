@@ -1,6 +1,11 @@
 # terraform_practice
 테라폼 공부 repo
 
+각 폴더 실습 후 반드시 destroy를 해주자!
+
+안하면 요금폭탄 맞는다!
+
+
 ### 명령어
 
 ```sh
